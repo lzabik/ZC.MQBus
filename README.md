@@ -127,8 +127,7 @@ public class Startup
         services.Configure<RabbitMqOptions>(rabbitMqOptions);
 
         services.AddLogging();
-        services.AddMessageBus();
-
+        
         services.AddMessageBus();
 
         // test handlers
