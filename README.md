@@ -13,7 +13,7 @@ A library for the event-based, command-based and RCP-based communication using R
 
 ## How-To
 
-Install a couple of **`NuGet`** packages.
+Install **`NuGet`** packages.
 
 ```console
 PM> Install-Package ZC.MQBus.Base
