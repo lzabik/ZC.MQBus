@@ -180,12 +180,12 @@ public class MessageBusController : ControllerBase
         [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> CallRPC()
         {
-            var connectionString = await _messageBus.CallRPC<RPCPingRequest, RPCPingResponse>(new RPCPingRequest()
+            var result = await _messageBus.CallRPC<RPCPingRequest, RPCPingResponse>(new RPCPingRequest()
             {
                 Ping = "Ping"
             });
 
-            return Ok(connectionString.Ping);
+            return Ok(result.Ping);
         }
 
         [HttpPost("PushCommand")]
