@@ -2,9 +2,11 @@
 
 A library for the event-based, command-based and RCP-based communication using RabbitMQ.
 
- [![NuGet Badge](https://buildstats.info/nuget/ZC.MQBus.Base?includePreReleases=false)](https://www.nuget.org/packages/ZC.MQBus.Base)
- [![NuGet Badge](https://buildstats.info/nuget/ZC.MQBus.Rabbit?includePreReleases=false)](https://www.nuget.org/packages/ZC.MQBus.Rabbit)
- 
+| nuget |  |
+| ------------- | ------------- |
+| ZC.MQBus.Base | [![NuGet Badge](https://buildstats.info/nuget/ZC.MQBus.Base?includePreReleases=false)](https://www.nuget.org/packages/ZC.MQBus.Base) |
+| ZC.MQBus.Rabbit | [![NuGet Badge](https://buildstats.info/nuget/ZC.MQBus.Rabbit?includePreReleases=false)](https://www.nuget.org/packages/ZC.MQBus.Rabbit) |
+  
 ## Samples
 
 - [Publisher app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/PublisherRPC)
