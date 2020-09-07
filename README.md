@@ -11,6 +11,17 @@ A library for the event-based, command-based and RCP-based communication using R
 - [Subscriber app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/SubscriberRPC)
 - [Framework Subscriber app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/SampleFrameworkSubscriber)
 
+## Overview 
+
+Events - the event is send to all subscribers
+<img src="images/ZC.MQBus-events.png" alt="events"/>
+
+Commands - the command is send to exactly one subscriber/worker
+<img src="images/ZC.MQBus-command.png" alt="command"/>
+
+RPC - the rpc request is send to exactly one subscriber/server, the subscriber should return the result
+<img src="images/ZC.MQBus-rpc.png" alt="rpc"/>
+
 ## How-To
 
 Install **`NuGet`** packages.
