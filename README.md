@@ -9,8 +9,8 @@ A library for the event-based, command-based and RCP-based communication using R
   
 ## Samples
 
-- [Publisher app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/PublisherRPC)
-- [Subscriber app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/SubscriberRPC)
+- [Publisher app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/Publisher)
+- [Subscriber app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/Subscriber)
 - [Framework Subscriber app](https://github.com/lzabik/ZC.EventBus/tree/master/samples/SampleFrameworkSubscriber)
 
 ## Overview 
