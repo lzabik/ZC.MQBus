@@ -13,13 +13,13 @@ A library for the event-based, command-based and RCP-based communication using R
 
 ## Overview 
 
-Events - the event is send to all subscribers
+**Events - the event is send to all subscribers**
 <img src="images/ZC.MQBus-events.png" alt="events"/>
 
-Commands - the command is send to exactly one subscriber/worker
+**Commands - the command is send to exactly one subscriber/worker**
 <img src="images/ZC.MQBus-command.png" alt="command"/>
 
-RPC - the rpc request is send to exactly one subscriber/server, the subscriber should return the result
+**RPC - the rpc request is send to exactly one subscriber/server, the subscriber should return the result**
 <img src="images/ZC.MQBus-rpc.png" alt="rpc"/>
 
 ## How-To
